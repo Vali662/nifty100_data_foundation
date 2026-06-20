@@ -33,11 +33,3 @@ def normalize_ticker(ticker):
         return None
 
     return str(ticker).strip().upper()
-
-
-print(normalize_year("Dec 2012"))
-print(normalize_year("Mar 2014"))
-print(normalize_year("Mar-13"))
-print(normalize_year("Mar-24"))
-
-print(normalize_ticker(" tcs "))
