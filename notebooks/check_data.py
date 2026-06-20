@@ -1,6 +1,6 @@
 import pandas as pd
 
-file_path = "data/raw/peer_groups.xlsx"
+file_path = "data/raw/stock_prices.xlsx"
 
 
 xls = pd.ExcelFile(file_path)
