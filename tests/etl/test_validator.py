@@ -292,3 +292,87 @@ peer_errors = check_peer_group_fk(
 
 print("\nPeer Group FK Errors:")
 print(len(peer_errors))
+
+import pandas as pd
+all_failures = []
+if len(company_year_errors) > 0:
+
+    temp = company_year_errors.copy()
+
+    temp["dq_rule"] = "DQ-02"
+
+    all_failures.append(temp)
+
+all_failures = []
+
+if len(company_year_errors) > 0:
+
+    temp = company_year_errors.copy()
+
+    temp["dq_rule"] = "DQ-02"
+
+    all_failures.append(temp)
+
+if len(fk_errors) > 0:
+
+    temp = fk_errors.copy()
+
+    temp["dq_rule"] = "DQ-03"
+
+    all_failures.append(temp)
+
+if len(sales_errors) > 0:
+
+    temp = sales_errors.copy()
+
+    temp["dq_rule"] = "DQ-06"
+
+    all_failures.append(temp)
+
+# DQ-07
+if len(cash_errors) > 0:
+    temp = cash_errors.copy()
+    temp["dq_rule"] = "DQ-07"
+    all_failures.append(temp)
+
+# DQ-09
+if len(dividend_errors) > 0:
+    temp = dividend_errors.copy()
+    temp["dq_rule"] = "DQ-09"
+    all_failures.append(temp)
+
+# DQ-10
+if len(url_errors) > 0:
+    temp = url_errors.copy()
+    temp["dq_rule"] = "DQ-10"
+    all_failures.append(temp)
+
+# DQ-11
+if len(price_errors) > 0:
+    temp = price_errors.copy()
+    temp["dq_rule"] = "DQ-11"
+    all_failures.append(temp)
+
+# DQ-14
+if len(website_errors) > 0:
+    temp = website_errors.copy()
+    temp["dq_rule"] = "DQ-14"
+    all_failures.append(temp)
+
+print("\nFailure Groups:")
+print(len(all_failures))
+
+final_df = pd.concat(
+    all_failures,
+    ignore_index=True
+)
+
+final_df.to_csv(
+    "output/validation_failures.csv",
+    index=False
+)
+
+print("\nTotal Failure Rows:")
+print(len(final_df))
+
+print("\nCSV Generated Successfully")
