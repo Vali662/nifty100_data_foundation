@@ -1,9 +1,12 @@
-import pandas as pd
+import sqlite3
 
-def load_excel(file_path, sheet_name=0):
-    df = pd.read_excel(
-        file_path,
-        sheet_name=sheet_name,
-        skiprows=1
-    )
-    return df
+conn = sqlite3.connect("data/nifty100.db")
+
+with open("sql/schema.sql", "r") as f:
+    schema = f.read()
+
+conn.executescript(schema)
+
+print("Tables Created")
+
+conn.close()
