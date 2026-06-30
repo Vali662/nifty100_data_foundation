@@ -10,6 +10,13 @@ from src.analytics.ratios import (
     return_on_capital_employed,
     return_on_assets,
     check_opm_difference,
+    debt_to_equity,
+    high_leverage_flag,
+    interest_coverage_ratio,
+    icr_label,
+    icr_warning_flag,
+    net_debt,
+    asset_turnover,
 )
 
 
@@ -66,3 +73,42 @@ def test_opm_cross_check():
 
     assert calculated == 30.0
     assert mismatch is True
+
+# ---------- Day 09 Tests ----------
+
+def test_debt_to_equity():
+    assert debt_to_equity(500, 100, 900) == 0.5
+
+
+def test_debt_free():
+    assert debt_to_equity(0, 100, 900) == 0
+
+
+def test_high_leverage_flag():
+    assert high_leverage_flag(6.2, "Energy") is True
+    assert high_leverage_flag(6.2, "Financials") is False
+
+
+def test_interest_coverage_ratio():
+    assert interest_coverage_ratio(300, 50, 100) == 3.5
+
+
+def test_icr_label():
+    assert icr_label(None) == "Debt Free"
+    assert icr_label(3.5) is None
+
+
+def test_icr_warning_flag():
+    assert icr_warning_flag(1.2) is True
+    assert icr_warning_flag(3.5) is False
+    assert icr_warning_flag(None) is False
+
+
+def test_net_debt():
+    assert net_debt(1000, 300) == 700
+    assert net_debt(500, 800) == -300
+
+
+def test_asset_turnover():
+    assert asset_turnover(5000, 2500) == 2.0
+    assert asset_turnover(1000, 0) is None

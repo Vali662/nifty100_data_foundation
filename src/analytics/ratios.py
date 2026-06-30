@@ -104,3 +104,113 @@ def check_opm_difference(
         return calculated, True
 
     return calculated, False
+
+def debt_to_equity(
+    borrowings,
+    equity_capital,
+    reserves,
+):
+    """
+    Calculate Debt-to-Equity Ratio
+
+    Formula:
+    Borrowings / (Equity + Reserves)
+    """
+
+    if borrowings == 0:
+        return 0
+
+    total_equity = (
+        equity_capital + reserves
+    )
+
+    if total_equity <= 0:
+        return None
+
+    return borrowings / total_equity
+
+def high_leverage_flag(
+    debt_equity_ratio,
+    broad_sector,
+):
+    """
+    Check if company has high leverage.
+    """
+
+    if (
+        debt_equity_ratio is not None
+        and debt_equity_ratio > 5
+        and broad_sector != "Financials"
+    ):
+        return True
+
+    return False
+
+def interest_coverage_ratio(
+    operating_profit,
+    other_income,
+    interest,
+):
+    """
+    Calculate Interest Coverage Ratio (ICR)
+
+    Formula:
+    (Operating Profit + Other Income) / Interest
+    """
+
+    if interest == 0:
+        return None
+
+    return (
+        operating_profit + other_income
+    ) / interest
+
+def icr_label(icr):
+    """
+    Return display label for Interest Coverage Ratio.
+    """
+
+    if icr is None:
+        return "Debt Free"
+
+    return None
+
+
+def icr_warning_flag(icr):
+    """
+    Flag companies with low Interest Coverage Ratio.
+    """
+
+    if icr is None:
+        return False
+
+    return icr < 1.5
+
+def net_debt(
+    borrowings,
+    investments,
+):
+    """
+    Calculate Net Debt.
+
+    Formula:
+    Borrowings - Investments
+    """
+
+    return borrowings - investments
+
+def asset_turnover(
+    sales,
+    total_assets,
+):
+    """
+    Calculate Asset Turnover Ratio.
+
+    Formula:
+    Sales / Total Assets
+    """
+
+    if total_assets == 0:
+        return None
+
+    return sales / total_assets
