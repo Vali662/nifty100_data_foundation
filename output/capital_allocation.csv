@@ -1,0 +1,6 @@
+company_id,year,operating_activity,investing_activity,financing_activity,cfo_sign,cfi_sign,cff_sign,pattern_label
+ABB,2023,500,-200,-100,+,-,-,Reinvestor
+TCS,2023,500,100,-50,+,+,-,Liquidating Assets
+SBIN,2023,-100,200,300,-,+,+,Distress Signal
+INFY,2023,-100,-200,300,-,-,+,Growth Funded by Debt
+ITC,2023,100,200,300,+,+,+,Cash Accumulator
