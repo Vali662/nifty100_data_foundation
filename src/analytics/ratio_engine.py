@@ -35,7 +35,15 @@ conn = sqlite3.connect("data/nifty100.db")
 
 # Read tables
 pl = pd.read_sql("SELECT * FROM profitandloss", conn)
+pl = pl.drop_duplicates(
+    subset=["company_id", "year"],
+    keep="first"
+)
 bs = pd.read_sql("SELECT * FROM balancesheet", conn)
+bs = bs.drop_duplicates(
+    subset=["company_id", "year"],
+    keep="first"
+)
 
 # Merge on company_id and year
 merged = pd.merge(
@@ -187,13 +195,6 @@ merged["composite_quality_score"] = (
 # Calculate 5-Year CAGR for each company
 # ======================================
 
-merged = (
-    merged
-    .groupby("company_id", group_keys=False)
-    .apply(calculate_company_cagr)
-)
-merged = merged.reset_index(drop=True)
-        
 # Select only required KPI columns
 ratios_df = merged[
     [
@@ -213,9 +214,6 @@ ratios_df = merged[
         "dividend_payout_ratio_pct",
         "total_debt_cr",
         "cash_from_operations_cr",
-        "revenue_cagr_5yr",
-        "pat_cagr_5yr",
-        "eps_cagr_5yr",
         "composite_quality_score",
     ]
 ].copy()

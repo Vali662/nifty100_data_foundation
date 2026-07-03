@@ -47,42 +47,56 @@ pl["eps_cagr_5yr"] = None
 # Calculate CAGR
 for company in pl["company_id"].unique():
 
-    company_df = pl[
-        pl["company_id"] == company
-    ].copy()
+    company_df = (
+        pl[
+            pl["company_id"] == company
+        ]
+        .copy()
+        .sort_values("year_numeric")
+        .reset_index()
+    )
 
-    company_df = company_df.sort_values("year_numeric")
+    for i in range(5, len(company_df)):
 
-    company_df = company_df.reset_index()
+        current = company_df.loc[i]
+        old = company_df.loc[i - 5]
 
-for i in range(5, len(company_df)):
+        revenue, _ = revenue_cagr(
+            old["sales"],
+            current["sales"],
+            5,
+        )
 
-    current = company_df.loc[i]
+        pat, _ = pat_cagr(
+            old["net_profit"],
+            current["net_profit"],
+            5,
+        )
 
-    old = company_df.loc[i - 5]
+        eps, _ = eps_cagr(
+            old["eps"],
+            current["eps"],
+            5,
+        )
 
-    revenue, _ = revenue_cagr(
-    old["sales"],
-    current["sales"],
-    5
-)
+        original_index = current["index"]
 
-pat, _ = pat_cagr(
-    old["net_profit"],
-    current["net_profit"],
-    5
-)
+        pl.loc[
+            original_index,
+            "revenue_cagr_5yr"
+        ] = revenue
 
-eps, _ = eps_cagr(
-    old["eps"],
-    current["eps"],
-    5
-)
-original_index = current["index"]
+        pl.loc[
+            original_index,
+            "pat_cagr_5yr"
+        ] = pat
 
-pl.loc[original_index, "revenue_cagr_5yr"] = revenue
-pl.loc[original_index, "pat_cagr_5yr"] = pat
-pl.loc[original_index, "eps_cagr_5yr"] = eps
+        pl.loc[
+            original_index,
+            "eps_cagr_5yr"
+        ] = eps
+
+print("\nGenerated CAGR Rows:")
 
 print(
     pl[
@@ -95,7 +109,46 @@ print(
             "pat_cagr_5yr",
             "eps_cagr_5yr",
         ]
-    ].head(20)
+    ]
 )
+
+print("\nTotal CAGR Rows:")
+print(pl["revenue_cagr_5yr"].notna().sum())
+
+# =====================================
+# Update financial_ratios table
+# =====================================
+
+cursor = conn.cursor()
+
+updated = 0
+
+for _, row in pl.iterrows():
+
+    cursor.execute(
+        """
+        UPDATE financial_ratios
+        SET
+            revenue_cagr_5yr = ?,
+            pat_cagr_5yr = ?,
+            eps_cagr_5yr = ?
+        WHERE
+            company_id = ?
+            AND year = ?
+        """,
+        (
+            row["revenue_cagr_5yr"],
+            row["pat_cagr_5yr"],
+            row["eps_cagr_5yr"],
+            row["company_id"],
+            row["year"],
+        ),
+    )
+
+    updated += cursor.rowcount
+
+conn.commit()
+
+print(f"\nRows Updated: {updated}")
 
 conn.close()
