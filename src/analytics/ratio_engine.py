@@ -71,7 +71,18 @@ merged = pd.merge(
     on=["company_id", "year"],
     how="left",
 )
-
+# Read sectors table
+sectors = pd.read_sql(
+    "SELECT company_id, broad_sector FROM sectors",
+    conn
+)
+# Merge sectors
+merged = pd.merge(
+    merged,
+    sectors,
+    on="company_id",
+    how="left",
+)
 # Convert year like "Mar 2015" -> 2015
 """merged["year_numeric"] = (
     merged["year"]
@@ -117,6 +128,12 @@ merged["debt_to_equity"] = merged.apply(
         row["reserves"]
     ),
     axis=1
+)
+# High Leverage Flag
+merged["high_leverage_flag"] = (
+    (merged["debt_to_equity"] > 5)
+    &
+    (merged["broad_sector"] != "Financials")
 )
 
 merged["return_on_capital_employed_pct"] = merged.apply(
