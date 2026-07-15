@@ -92,3 +92,39 @@ def get_valuation(ticker):
         WHERE company_id = ?
         ORDER BY year
     """, (ticker,))
+
+def get_ratios_by_year(year):
+    return run_query("""
+        SELECT *
+        FROM financial_ratios
+        WHERE year = ?
+    """, (year,))
+
+def get_market_by_year(year):
+    return run_query("""
+        SELECT *
+        FROM market_cap
+        WHERE year = ?
+    """, (year,))
+
+def get_sector_summary():
+    return run_query("""
+        SELECT
+            broad_sector,
+            COUNT(company_id) AS company_count
+        FROM sectors
+        GROUP BY broad_sector
+        ORDER BY company_count DESC
+    """)
+
+def get_top_quality_companies(year):
+    return run_query("""
+        SELECT
+    company_id,
+    MAX(composite_quality_score) AS composite_quality_score
+FROM financial_ratios
+WHERE year = ?
+GROUP BY company_id
+ORDER BY composite_quality_score DESC
+LIMIT 5
+    """, (year,))
