@@ -128,3 +128,10 @@ GROUP BY company_id
 ORDER BY composite_quality_score DESC
 LIMIT 5
     """, (year,))
+
+def get_company_profile(ticker):
+    return run_query("""
+        SELECT *
+        FROM companies
+        WHERE id = ?
+    """, (ticker,))
