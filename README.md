@@ -1,20 +1,20 @@
-# 📈 NIFTY100 Financial Intelligence Platform
+# 📈 NIFTY100 Financial Intelligence Platform & Analytics Dashboard
 
-A comprehensive financial analytics platform developed to analyze NIFTY100 companies using financial statements, calculate key financial ratios, perform stock screening, compare industry peers, and generate analytical reports.
+A comprehensive financial analytics platform developed to analyze NIFTY100 companies using financial statements, calculate key financial ratios, perform stock screening, compare industry peers, generate analytical reports, and provide an interactive dashboard for financial analysis.
 
 ---
 
-## 📌 Project Overview
+# 📌 Project Overview
 
-The NIFTY100 Financial Intelligence Platform is a Python-based data analytics project that processes financial data of NIFTY100 companies and provides insights through financial ratios, stock screeners, peer comparison, and visual reports.
+The NIFTY100 Financial Intelligence Platform is a Python-based financial analytics project that processes financial data of NIFTY100 companies and provides actionable insights through financial ratios, stock screening, peer comparison, trend analysis, sector analysis, and interactive dashboards.
 
-The project was developed in three sprints following an agile development approach.
+The project was developed in **four sprints** following an Agile development approach.
 
 ---
 
 # 🚀 Sprint 1 – Data Foundation
 
-### Features
+## Features
 
 - Project setup and folder structure
 - ETL pipeline for financial datasets
@@ -23,18 +23,18 @@ The project was developed in three sprints following an agile development approa
 - Data quality checks
 - Unit testing
 
-### Deliverables
+## Deliverables
 
 - SQLite Database
 - ETL Pipeline
-- Cleaned datasets
+- Cleaned Financial Datasets
 - Data Quality Validation
 
 ---
 
 # 📊 Sprint 2 – Financial Ratio Engine
 
-### Features
+## Features
 
 Calculated major financial KPIs including:
 
@@ -52,18 +52,18 @@ Calculated major financial KPIs including:
 - EPS CAGR (5 Years)
 - Composite Quality Score
 
-### Deliverables
+## Deliverables
 
 - Financial Ratio Engine
 - Composite Quality Score
 - Financial Ratios SQLite Table
-- Unit Tests
+- Automated Unit Tests
 
 ---
 
 # 📉 Sprint 3 – Screener & Peer Comparison Engine
 
-### Features
+## Features
 
 ### Financial Screener
 
@@ -84,12 +84,12 @@ Implemented six preset screeners:
 ### Peer Comparison
 
 - Percentile ranking within peer groups
-- 10 financial metrics comparison
-- SQLite peer_percentiles table
+- Comparison across multiple financial metrics
+- SQLite peer comparison engine
 
 ### Radar Charts
 
-Generated radar charts for companies with peer group comparison.
+Generated radar charts for peer group comparison.
 
 ### Excel Reports
 
@@ -97,6 +97,81 @@ Generated:
 
 - screener_output.xlsx
 - peer_comparison.xlsx
+
+## Deliverables
+
+- Financial Screener Engine
+- Peer Comparison Engine
+- Radar Chart Generator
+- Excel Report Automation
+
+---
+
+# 📊 Sprint 4 – Analytics Dashboard
+
+## Features
+
+Developed an interactive Streamlit dashboard for visualizing and analyzing NIFTY100 financial data.
+
+### Dashboard Pages
+
+### 🏠 Home Dashboard
+
+- Project overview
+- Dataset summary
+- KPI cards
+- Interactive dashboard
+
+### 🔍 Financial Screener
+
+- Filter companies using financial metrics
+- Custom screening conditions
+- Interactive screener results
+
+### 🏢 Company Analysis
+
+- Company-wise financial ratios
+- Performance overview
+- Detailed company information
+
+### 🤝 Peer Comparison
+
+- Compare companies within peer groups
+- Ranking based on financial metrics
+- Interactive comparison charts
+
+### 📈 Trend Analysis
+
+- Multi-year financial ratio trends
+- Compare multiple financial metrics
+- Year-over-Year analysis
+
+### 🏭 Sector Analysis
+
+- Sector-wise company comparison
+- Average sector performance
+- ROE comparison charts
+
+### 💹 Capital Analysis
+
+- Market capitalization categories
+- Company distribution
+- Index weight analysis
+
+### 📄 Reports & Downloads
+
+- Dataset summary
+- Download Financial Ratios
+- Download Companies
+- Download Sector Data
+- CSV export functionality
+
+## Deliverables
+
+- Interactive Streamlit Dashboard
+- Eight Dashboard Pages
+- Plotly Interactive Charts
+- Downloadable Reports
 
 ---
 
@@ -106,6 +181,8 @@ Generated:
 - Pandas
 - NumPy
 - SQLite3
+- Streamlit
+- Plotly
 - OpenPyXL
 - Matplotlib
 - PyYAML
@@ -117,7 +194,7 @@ Generated:
 
 # 📂 Project Structure
 
-```
+```text
 NIFTY100_Financial_Intelligence_Platform/
 
 │
@@ -129,22 +206,20 @@ NIFTY100_Financial_Intelligence_Platform/
 ├── db/
 
 ├── output/
-
-│ ├── screener_output.xlsx
-
-│ └── peer_comparison.xlsx
+│   ├── screener_output.xlsx
+│   └── peer_comparison.xlsx
 
 ├── reports/
-
-│ └── radar_charts/
+│   └── radar_charts/
 
 ├── src/
-
-│ ├── analytics/
-
-│ ├── etl/
-
-│ └── screener/
+│   ├── analytics/
+│   ├── dashboard/
+│   │   ├── app.py
+│   │   ├── pages/
+│   │   └── utils/
+│   ├── etl/
+│   └── screener/
 
 ├── tests/
 
@@ -157,7 +232,7 @@ NIFTY100_Financial_Intelligence_Platform/
 
 # 📊 Outputs
 
-### Financial Screener
+## Financial Screener
 
 - Quality Compounder
 - Value Pick
@@ -166,11 +241,22 @@ NIFTY100_Financial_Intelligence_Platform/
 - Debt-Free Blue Chip
 - Turnaround Watch
 
-### Reports
+## Reports
 
 - Screener Output Excel
 - Peer Comparison Excel
 - Radar Chart Images
+
+## Dashboard
+
+- Home Dashboard
+- Financial Screener
+- Company Analysis
+- Peer Comparison
+- Trend Analysis
+- Sector Analysis
+- Capital Analysis
+- Reports & Downloads
 
 ---
 
@@ -179,53 +265,59 @@ NIFTY100_Financial_Intelligence_Platform/
 The project includes automated unit tests.
 
 ```
-34 tests passed successfully
+47 tests passed successfully
 ```
 
 ---
 
 # ▶️ How to Run
 
-### Clone Repository
+## Clone Repository
 
 ```bash
 git clone https://github.com/<your-username>/<repository>.git
 ```
 
-### Install Dependencies
+## Install Dependencies
 
 ```bash
 pip install -r requirements.txt
 ```
 
-### Run Screener
+## Run Dashboard
+
+```bash
+streamlit run src/dashboard/app.py
+```
+
+## Run Screener
 
 ```bash
 python -m src.screener.engine
 ```
 
-### Run Peer Comparison
+## Run Peer Comparison
 
 ```bash
 python -m src.analytics.peer
 ```
 
-### Generate Radar Charts
+## Generate Radar Charts
 
 ```bash
 python -m src.analytics.radar
 ```
 
-### Generate Peer Comparison Report
+## Generate Peer Comparison Report
 
 ```bash
 python -m src.analytics.peer_report
 ```
 
-### Run Tests
+## Run Tests
 
 ```bash
-pytest
+python -m pytest
 ```
 
 ---
@@ -236,11 +328,17 @@ pytest
 - SQLite Database
 - Financial Ratio Engine
 - Composite Quality Score
-- Six Stock Screeners
-- Peer Percentile Ranking
+- Six Financial Screeners
+- Peer Comparison Engine
 - Radar Chart Generation
 - Excel Report Automation
-- 34 Passing Unit Tests
+- Interactive Streamlit Dashboard
+- Plotly Visualizations
+- Trend Analysis
+- Sector Analysis
+- Capital Analysis
+- Downloadable CSV Reports
+- 47 Passing Unit Tests
 
 ---
 
@@ -253,9 +351,11 @@ Through this project, I gained practical experience in:
 - Python Programming
 - SQL & SQLite
 - Pandas Data Analysis
-- Automated Testing
+- Financial Ratio Analysis
+- Streamlit Dashboard Development
+- Interactive Data Visualization using Plotly
+- Automated Testing with Pytest
 - Excel Report Automation
-- Data Visualization
 - Git & GitHub
 - Agile Sprint-Based Development
 
@@ -274,4 +374,4 @@ Through this project, I gained practical experience in:
 
 # 📄 License
 
-This project was developed for educational and internship purposes.
+This project was developed for educational, internship, and portfolio purposes.
