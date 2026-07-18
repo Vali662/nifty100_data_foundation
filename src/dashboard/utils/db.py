@@ -99,6 +99,14 @@ def get_ratios_by_year(year):
         FROM financial_ratios
         WHERE year = ?
     """, (year,))
+@st.cache_data(ttl=600)
+def get_ratios(company_id):
+    return run_query("""
+        SELECT *
+        FROM financial_ratios
+        WHERE company_id = ?
+        ORDER BY year
+    """, (company_id,))
 
 def get_market_by_year(year):
     return run_query("""

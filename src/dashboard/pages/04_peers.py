@@ -63,6 +63,12 @@ if not peer_group.empty:
         ]
 
         values = selected_data.iloc[0][metrics].fillna(0).tolist()
+        peer_average = (
+    comparison[metrics]
+    .mean()
+    .fillna(0)
+    .tolist()
+)
 
         fig = go.Figure()
 
@@ -82,11 +88,27 @@ if not peer_group.empty:
             )
         )
 
+        fig.add_trace(
+    go.Scatterpolar(
+        r=peer_average,
+        theta=[
+            "ROE",
+            "ROCE",
+            "NPM",
+            "Revenue CAGR",
+            "PAT CAGR",
+            "Quality Score"
+        ],
+        fill="toself",
+        name="Peer Average"
+    )
+)
+
         fig.update_layout(
             polar=dict(
                 radialaxis=dict(visible=True)
             ),
-            showlegend=False,
+            showlegend=True,
             title="Financial Radar"
         )
 
