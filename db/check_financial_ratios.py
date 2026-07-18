@@ -1,13 +1,20 @@
 import sqlite3
+import pandas as pd
 
 conn = sqlite3.connect("data/nifty100.db")
 
-cursor = conn.cursor()
+query = """
+SELECT
+    company_id,
+    year,
+    revenue_cagr_5yr,
+    pat_cagr_5yr
+FROM financial_ratios
+LIMIT 10;
+"""
 
-cursor.execute("SELECT COUNT(*) FROM financial_ratios")
+df = pd.read_sql(query, conn)
 
-rows = cursor.fetchone()[0]
-
-print("Rows in financial_ratios:", rows)
+print(df)
 
 conn.close()

@@ -9,8 +9,19 @@ from openpyxl.utils import get_column_letter
 # -----------------------------
 # Load Database
 # -----------------------------
-conn = sqlite3.connect("data/nifty100.db")
+from pathlib import Path
 
+DB_PATH = Path(__file__).resolve().parents[2] / "data" / "nifty100.db"
+
+conn = sqlite3.connect(DB_PATH)
+from pathlib import Path
+import os
+
+print("=" * 60)
+print("Current Working Directory:", os.getcwd())
+print("Database Path:", Path("data/nifty100.db").resolve())
+#print("Rows loaded from financial_ratios:", len(df))
+print("=" * 60)
 query = """
 SELECT
     fr.*,
@@ -37,12 +48,18 @@ ON fr.company_id = s.company_id
 """
 
 df = pd.read_sql(query, conn)
+
 df["old_composite_score"] = df["composite_quality_score"]
-# Keep only the latest year for each company
+df["year_num"] = (
+    df["year"]
+    .str.extract(r"(\d{4})")
+    .astype(int)
+)
 df = (
-    df.sort_values("year")
+    df.sort_values("year_num")
       .groupby("company_id", as_index=False)
       .tail(1)
+      .drop(columns="year_num")
 )
 
 print("Companies:", len(df))
@@ -268,10 +285,28 @@ def calculate_composite_score(df):
 
 def run_preset(preset_name):
 
+    global df
+    df = calculate_composite_score(df)
+
+    print("=" * 50)
+    print("Preset:", preset_name)
+    print("Rows before filtering:", len(df))
+    print("Available presets:", list(config.keys()))
+
     if preset_name not in config:
         raise ValueError(f"{preset_name} not found")
 
+    print("Filters:", config[preset_name])
+
     result = apply_filters(df, config[preset_name])
+
+    print(df[["revenue_cagr_5yr", "pat_cagr_5yr", "free_cash_flow"]].describe())
+
+    print(df[["revenue_cagr_5yr", "pat_cagr_5yr", "free_cash_flow"]].isnull().sum())
+
+    print("Rows after filtering:", len(result))
+
+    return result
 
     print("\n" + "=" * 60)
     print(f"Preset: {preset_name}")

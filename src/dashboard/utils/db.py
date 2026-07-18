@@ -135,3 +135,42 @@ def get_company_profile(ticker):
         FROM companies
         WHERE id = ?
     """, (ticker,))
+
+def get_company_peer_group(company_id):
+    query = """
+        SELECT *
+        FROM peer_groups
+        WHERE company_id = ?
+    """
+    return run_query(query, (company_id,))
+
+@st.cache_data(ttl=600)
+def get_peer_comparison(group_name):
+    query = """
+    SELECT
+        pg.company_id,
+        c.company_name,
+        fr.return_on_equity_pct,
+        fr.return_on_capital_employed_pct,
+        fr.net_profit_margin_pct,
+        fr.debt_to_equity,
+        fr.revenue_cagr_5yr,
+        fr.pat_cagr_5yr,
+        fr.composite_quality_score,
+        pg.is_benchmark
+    FROM peer_groups pg
+    JOIN companies c
+        ON pg.company_id = c.id
+    LEFT JOIN (
+    SELECT f.*
+    FROM financial_ratios f
+    WHERE rowid IN (
+        SELECT MAX(rowid)
+        FROM financial_ratios
+        GROUP BY company_id
+    )
+) fr
+ON pg.company_id = fr.company_id
+WHERE pg.peer_group_name = ?
+ORDER BY fr.composite_quality_score DESC"""
+    return run_query(query, (group_name,))
