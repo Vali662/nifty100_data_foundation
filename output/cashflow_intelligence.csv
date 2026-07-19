@@ -1,0 +1,565 @@
+company_id,type,message,confidence_pct
+VBL,Positive OCF,Business generates positive operating cash flow from core operations.,95
+VBL,Capital Investment,Company is investing cash into long-term assets or business expansion.,90
+VBL,Financing Inflow,Company received positive cash from financing activities.,85
+VBL,Positive Net Cash,Overall cash position improved during the year.,90
+VBL,Strong OCF,"Operating cash flow is strong, indicating excellent cash generation capability.",95
+VBL,Expansion Phase,Large investing cash outflow suggests expansion or significant capital expenditure.,90
+VBL,Healthy Cash Flow,Positive operating cash flow combined with investment in assets reflects a healthy business pattern.,95
+ABB,Positive OCF,Business generates positive operating cash flow from core operations.,95
+ABB,Capital Investment,Company is investing cash into long-term assets or business expansion.,90
+ABB,Positive Net Cash,Overall cash position improved during the year.,90
+ABB,Strong OCF,"Operating cash flow is strong, indicating excellent cash generation capability.",95
+ABB,Expansion Phase,Large investing cash outflow suggests expansion or significant capital expenditure.,90
+ABB,Healthy Cash Flow,Positive operating cash flow combined with investment in assets reflects a healthy business pattern.,95
+ADANIENSOL,Positive OCF,Business generates positive operating cash flow from core operations.,95
+ADANIENSOL,Capital Investment,Company is investing cash into long-term assets or business expansion.,90
+ADANIENSOL,Positive Net Cash,Overall cash position improved during the year.,90
+ADANIENSOL,Strong OCF,"Operating cash flow is strong, indicating excellent cash generation capability.",95
+ADANIENSOL,Expansion Phase,Large investing cash outflow suggests expansion or significant capital expenditure.,90
+ADANIENSOL,Healthy Cash Flow,Positive operating cash flow combined with investment in assets reflects a healthy business pattern.,95
+ADANIENT,Positive OCF,Business generates positive operating cash flow from core operations.,95
+ADANIENT,Capital Investment,Company is investing cash into long-term assets or business expansion.,90
+ADANIENT,Financing Inflow,Company received positive cash from financing activities.,85
+ADANIENT,Positive Net Cash,Overall cash position improved during the year.,90
+ADANIENT,Strong OCF,"Operating cash flow is strong, indicating excellent cash generation capability.",95
+ADANIENT,Expansion Phase,Large investing cash outflow suggests expansion or significant capital expenditure.,90
+ADANIENT,External Funding,Large financing inflow indicates debt or equity funding.,85
+ADANIENT,Healthy Cash Flow,Positive operating cash flow combined with investment in assets reflects a healthy business pattern.,95
+ADANIGREEN,Positive OCF,Business generates positive operating cash flow from core operations.,95
+ADANIGREEN,Capital Investment,Company is investing cash into long-term assets or business expansion.,90
+ADANIGREEN,Financing Inflow,Company received positive cash from financing activities.,85
+ADANIGREEN,Positive Net Cash,Overall cash position improved during the year.,90
+ADANIGREEN,Strong OCF,"Operating cash flow is strong, indicating excellent cash generation capability.",95
+ADANIGREEN,Expansion Phase,Large investing cash outflow suggests expansion or significant capital expenditure.,90
+ADANIGREEN,External Funding,Large financing inflow indicates debt or equity funding.,85
+ADANIGREEN,Healthy Cash Flow,Positive operating cash flow combined with investment in assets reflects a healthy business pattern.,95
+ADANIPORTS,Positive OCF,Business generates positive operating cash flow from core operations.,95
+ADANIPORTS,Capital Investment,Company is investing cash into long-term assets or business expansion.,90
+ADANIPORTS,Positive Net Cash,Overall cash position improved during the year.,90
+ADANIPORTS,Strong OCF,"Operating cash flow is strong, indicating excellent cash generation capability.",95
+ADANIPORTS,Expansion Phase,Large investing cash outflow suggests expansion or significant capital expenditure.,90
+ADANIPORTS,Healthy Cash Flow,Positive operating cash flow combined with investment in assets reflects a healthy business pattern.,95
+ADANIPOWER,Positive OCF,Business generates positive operating cash flow from core operations.,95
+ADANIPOWER,Positive Net Cash,Overall cash position improved during the year.,90
+ADANIPOWER,Strong OCF,"Operating cash flow is strong, indicating excellent cash generation capability.",95
+AMBUJACEM,Positive OCF,Business generates positive operating cash flow from core operations.,95
+AMBUJACEM,Capital Investment,Company is investing cash into long-term assets or business expansion.,90
+AMBUJACEM,Financing Inflow,Company received positive cash from financing activities.,85
+AMBUJACEM,Positive Net Cash,Overall cash position improved during the year.,90
+AMBUJACEM,Strong OCF,"Operating cash flow is strong, indicating excellent cash generation capability.",95
+AMBUJACEM,Expansion Phase,Large investing cash outflow suggests expansion or significant capital expenditure.,90
+AMBUJACEM,External Funding,Large financing inflow indicates debt or equity funding.,85
+AMBUJACEM,Healthy Cash Flow,Positive operating cash flow combined with investment in assets reflects a healthy business pattern.,95
+APOLLOHOSP,Positive OCF,Business generates positive operating cash flow from core operations.,95
+APOLLOHOSP,Capital Investment,Company is investing cash into long-term assets or business expansion.,90
+APOLLOHOSP,Positive Net Cash,Overall cash position improved during the year.,90
+APOLLOHOSP,Strong OCF,"Operating cash flow is strong, indicating excellent cash generation capability.",95
+APOLLOHOSP,Expansion Phase,Large investing cash outflow suggests expansion or significant capital expenditure.,90
+APOLLOHOSP,Healthy Cash Flow,Positive operating cash flow combined with investment in assets reflects a healthy business pattern.,95
+ASIANPAINT,Positive OCF,Business generates positive operating cash flow from core operations.,95
+ASIANPAINT,Capital Investment,Company is investing cash into long-term assets or business expansion.,90
+ASIANPAINT,Positive Net Cash,Overall cash position improved during the year.,90
+ASIANPAINT,Strong OCF,"Operating cash flow is strong, indicating excellent cash generation capability.",95
+ASIANPAINT,Expansion Phase,Large investing cash outflow suggests expansion or significant capital expenditure.,90
+ASIANPAINT,Healthy Cash Flow,Positive operating cash flow combined with investment in assets reflects a healthy business pattern.,95
+AGTL,Positive OCF,Business generates positive operating cash flow from core operations.,95
+AGTL,Capital Investment,Company is investing cash into long-term assets or business expansion.,90
+AGTL,Positive Net Cash,Overall cash position improved during the year.,90
+AGTL,Healthy Cash Flow,Positive operating cash flow combined with investment in assets reflects a healthy business pattern.,95
+AXISBANK,Negative OCF,Negative operating cash flow may indicate pressure on core business operations.,95
+AXISBANK,Capital Investment,Company is investing cash into long-term assets or business expansion.,90
+AXISBANK,Financing Inflow,Company received positive cash from financing activities.,85
+AXISBANK,Positive Net Cash,Overall cash position improved during the year.,90
+AXISBANK,Expansion Phase,Large investing cash outflow suggests expansion or significant capital expenditure.,90
+AXISBANK,External Funding,Large financing inflow indicates debt or equity funding.,85
+BAJAJ-AUTO,Positive OCF,Business generates positive operating cash flow from core operations.,95
+BAJAJ-AUTO,Capital Investment,Company is investing cash into long-term assets or business expansion.,90
+BAJAJ-AUTO,Positive Net Cash,Overall cash position improved during the year.,90
+BAJAJ-AUTO,Strong OCF,"Operating cash flow is strong, indicating excellent cash generation capability.",95
+BAJAJ-AUTO,Healthy Cash Flow,Positive operating cash flow combined with investment in assets reflects a healthy business pattern.,95
+BAJAJFINSV,Negative OCF,Negative operating cash flow may indicate pressure on core business operations.,95
+BAJAJFINSV,Capital Investment,Company is investing cash into long-term assets or business expansion.,90
+BAJAJFINSV,Financing Inflow,Company received positive cash from financing activities.,85
+BAJAJFINSV,Positive Net Cash,Overall cash position improved during the year.,90
+BAJAJFINSV,Expansion Phase,Large investing cash outflow suggests expansion or significant capital expenditure.,90
+BAJAJFINSV,External Funding,Large financing inflow indicates debt or equity funding.,85
+BAJAJHLDNG,Positive OCF,Business generates positive operating cash flow from core operations.,95
+BAJAJHLDNG,Capital Investment,Company is investing cash into long-term assets or business expansion.,90
+BAJAJHLDNG,Positive Net Cash,Overall cash position improved during the year.,90
+BAJAJHLDNG,Strong OCF,"Operating cash flow is strong, indicating excellent cash generation capability.",95
+BAJAJHLDNG,Healthy Cash Flow,Positive operating cash flow combined with investment in assets reflects a healthy business pattern.,95
+BAJFINANCE,Negative OCF,Negative operating cash flow may indicate pressure on core business operations.,95
+BAJFINANCE,Capital Investment,Company is investing cash into long-term assets or business expansion.,90
+BAJFINANCE,Financing Inflow,Company received positive cash from financing activities.,85
+BAJFINANCE,Positive Net Cash,Overall cash position improved during the year.,90
+BAJFINANCE,Expansion Phase,Large investing cash outflow suggests expansion or significant capital expenditure.,90
+BAJFINANCE,External Funding,Large financing inflow indicates debt or equity funding.,85
+BANKBARODA,Negative OCF,Negative operating cash flow may indicate pressure on core business operations.,95
+BANKBARODA,Capital Investment,Company is investing cash into long-term assets or business expansion.,90
+BANKBARODA,Financing Inflow,Company received positive cash from financing activities.,85
+BANKBARODA,Expansion Phase,Large investing cash outflow suggests expansion or significant capital expenditure.,90
+BANKBARODA,External Funding,Large financing inflow indicates debt or equity funding.,85
+BANKBARODA,Cash Burn,"Net cash flow is negative, indicating a reduction in cash reserves.",90
+BEL,Positive OCF,Business generates positive operating cash flow from core operations.,95
+BEL,Capital Investment,Company is investing cash into long-term assets or business expansion.,90
+BEL,Strong OCF,"Operating cash flow is strong, indicating excellent cash generation capability.",95
+BEL,Expansion Phase,Large investing cash outflow suggests expansion or significant capital expenditure.,90
+BEL,Cash Burn,"Net cash flow is negative, indicating a reduction in cash reserves.",90
+BEL,Healthy Cash Flow,Positive operating cash flow combined with investment in assets reflects a healthy business pattern.,95
+BHARTIARTL,Positive OCF,Business generates positive operating cash flow from core operations.,95
+BHARTIARTL,Capital Investment,Company is investing cash into long-term assets or business expansion.,90
+BHARTIARTL,Positive Net Cash,Overall cash position improved during the year.,90
+BHARTIARTL,Strong OCF,"Operating cash flow is strong, indicating excellent cash generation capability.",95
+BHARTIARTL,Expansion Phase,Large investing cash outflow suggests expansion or significant capital expenditure.,90
+BHARTIARTL,Healthy Cash Flow,Positive operating cash flow combined with investment in assets reflects a healthy business pattern.,95
+BHEL,Negative OCF,Negative operating cash flow may indicate pressure on core business operations.,95
+BHEL,Financing Inflow,Company received positive cash from financing activities.,85
+BHEL,Positive Net Cash,Overall cash position improved during the year.,90
+BHEL,External Funding,Large financing inflow indicates debt or equity funding.,85
+BOSCHLTD,Positive OCF,Business generates positive operating cash flow from core operations.,95
+BOSCHLTD,Positive Net Cash,Overall cash position improved during the year.,90
+BOSCHLTD,Strong OCF,"Operating cash flow is strong, indicating excellent cash generation capability.",95
+BPCL,Positive OCF,Business generates positive operating cash flow from core operations.,95
+BPCL,Capital Investment,Company is investing cash into long-term assets or business expansion.,90
+BPCL,Strong OCF,"Operating cash flow is strong, indicating excellent cash generation capability.",95
+BPCL,Expansion Phase,Large investing cash outflow suggests expansion or significant capital expenditure.,90
+BPCL,Cash Burn,"Net cash flow is negative, indicating a reduction in cash reserves.",90
+BPCL,Healthy Cash Flow,Positive operating cash flow combined with investment in assets reflects a healthy business pattern.,95
+BRITANNIA,Positive OCF,Business generates positive operating cash flow from core operations.,95
+BRITANNIA,Positive Net Cash,Overall cash position improved during the year.,90
+BRITANNIA,Strong OCF,"Operating cash flow is strong, indicating excellent cash generation capability.",95
+CANBK,Positive OCF,Business generates positive operating cash flow from core operations.,95
+CANBK,Capital Investment,Company is investing cash into long-term assets or business expansion.,90
+CANBK,Positive Net Cash,Overall cash position improved during the year.,90
+CANBK,Strong OCF,"Operating cash flow is strong, indicating excellent cash generation capability.",95
+CANBK,Expansion Phase,Large investing cash outflow suggests expansion or significant capital expenditure.,90
+CANBK,Healthy Cash Flow,Positive operating cash flow combined with investment in assets reflects a healthy business pattern.,95
+CHOLAFIN,Negative OCF,Negative operating cash flow may indicate pressure on core business operations.,95
+CHOLAFIN,Capital Investment,Company is investing cash into long-term assets or business expansion.,90
+CHOLAFIN,Financing Inflow,Company received positive cash from financing activities.,85
+CHOLAFIN,Expansion Phase,Large investing cash outflow suggests expansion or significant capital expenditure.,90
+CHOLAFIN,External Funding,Large financing inflow indicates debt or equity funding.,85
+CHOLAFIN,Cash Burn,"Net cash flow is negative, indicating a reduction in cash reserves.",90
+CIPLA,Positive OCF,Business generates positive operating cash flow from core operations.,95
+CIPLA,Capital Investment,Company is investing cash into long-term assets or business expansion.,90
+CIPLA,Strong OCF,"Operating cash flow is strong, indicating excellent cash generation capability.",95
+CIPLA,Expansion Phase,Large investing cash outflow suggests expansion or significant capital expenditure.,90
+CIPLA,Cash Burn,"Net cash flow is negative, indicating a reduction in cash reserves.",90
+CIPLA,Healthy Cash Flow,Positive operating cash flow combined with investment in assets reflects a healthy business pattern.,95
+COALINDIA,Positive OCF,Business generates positive operating cash flow from core operations.,95
+COALINDIA,Capital Investment,Company is investing cash into long-term assets or business expansion.,90
+COALINDIA,Strong OCF,"Operating cash flow is strong, indicating excellent cash generation capability.",95
+COALINDIA,Expansion Phase,Large investing cash outflow suggests expansion or significant capital expenditure.,90
+COALINDIA,Cash Burn,"Net cash flow is negative, indicating a reduction in cash reserves.",90
+COALINDIA,Healthy Cash Flow,Positive operating cash flow combined with investment in assets reflects a healthy business pattern.,95
+DABUR,Positive OCF,Business generates positive operating cash flow from core operations.,95
+DABUR,Capital Investment,Company is investing cash into long-term assets or business expansion.,90
+DABUR,Strong OCF,"Operating cash flow is strong, indicating excellent cash generation capability.",95
+DABUR,Cash Burn,"Net cash flow is negative, indicating a reduction in cash reserves.",90
+DABUR,Healthy Cash Flow,Positive operating cash flow combined with investment in assets reflects a healthy business pattern.,95
+DIVISLAB,Positive OCF,Business generates positive operating cash flow from core operations.,95
+DIVISLAB,Capital Investment,Company is investing cash into long-term assets or business expansion.,90
+DIVISLAB,Positive Net Cash,Overall cash position improved during the year.,90
+DIVISLAB,Strong OCF,"Operating cash flow is strong, indicating excellent cash generation capability.",95
+DIVISLAB,Healthy Cash Flow,Positive operating cash flow combined with investment in assets reflects a healthy business pattern.,95
+DLF,Positive OCF,Business generates positive operating cash flow from core operations.,95
+DLF,Capital Investment,Company is investing cash into long-term assets or business expansion.,90
+DLF,Financing Inflow,Company received positive cash from financing activities.,85
+DLF,Positive Net Cash,Overall cash position improved during the year.,90
+DLF,Strong OCF,"Operating cash flow is strong, indicating excellent cash generation capability.",95
+DLF,Expansion Phase,Large investing cash outflow suggests expansion or significant capital expenditure.,90
+DLF,Healthy Cash Flow,Positive operating cash flow combined with investment in assets reflects a healthy business pattern.,95
+DMART,Positive OCF,Business generates positive operating cash flow from core operations.,95
+DMART,Capital Investment,Company is investing cash into long-term assets or business expansion.,90
+DMART,Positive Net Cash,Overall cash position improved during the year.,90
+DMART,Strong OCF,"Operating cash flow is strong, indicating excellent cash generation capability.",95
+DMART,Expansion Phase,Large investing cash outflow suggests expansion or significant capital expenditure.,90
+DMART,Healthy Cash Flow,Positive operating cash flow combined with investment in assets reflects a healthy business pattern.,95
+DRREDDY,Positive OCF,Business generates positive operating cash flow from core operations.,95
+DRREDDY,Capital Investment,Company is investing cash into long-term assets or business expansion.,90
+DRREDDY,Positive Net Cash,Overall cash position improved during the year.,90
+DRREDDY,Strong OCF,"Operating cash flow is strong, indicating excellent cash generation capability.",95
+DRREDDY,Expansion Phase,Large investing cash outflow suggests expansion or significant capital expenditure.,90
+DRREDDY,Healthy Cash Flow,Positive operating cash flow combined with investment in assets reflects a healthy business pattern.,95
+EICHERMOT,Positive OCF,Business generates positive operating cash flow from core operations.,95
+EICHERMOT,Capital Investment,Company is investing cash into long-term assets or business expansion.,90
+EICHERMOT,Positive Net Cash,Overall cash position improved during the year.,90
+EICHERMOT,Strong OCF,"Operating cash flow is strong, indicating excellent cash generation capability.",95
+EICHERMOT,Expansion Phase,Large investing cash outflow suggests expansion or significant capital expenditure.,90
+EICHERMOT,Healthy Cash Flow,Positive operating cash flow combined with investment in assets reflects a healthy business pattern.,95
+GAIL,Positive OCF,Business generates positive operating cash flow from core operations.,95
+GAIL,Capital Investment,Company is investing cash into long-term assets or business expansion.,90
+GAIL,Positive Net Cash,Overall cash position improved during the year.,90
+GAIL,Strong OCF,"Operating cash flow is strong, indicating excellent cash generation capability.",95
+GAIL,Expansion Phase,Large investing cash outflow suggests expansion or significant capital expenditure.,90
+GAIL,Healthy Cash Flow,Positive operating cash flow combined with investment in assets reflects a healthy business pattern.,95
+GODREJCP,Positive OCF,Business generates positive operating cash flow from core operations.,95
+GODREJCP,Capital Investment,Company is investing cash into long-term assets or business expansion.,90
+GODREJCP,Financing Inflow,Company received positive cash from financing activities.,85
+GODREJCP,Positive Net Cash,Overall cash position improved during the year.,90
+GODREJCP,Strong OCF,"Operating cash flow is strong, indicating excellent cash generation capability.",95
+GODREJCP,Expansion Phase,Large investing cash outflow suggests expansion or significant capital expenditure.,90
+GODREJCP,External Funding,Large financing inflow indicates debt or equity funding.,85
+GODREJCP,Healthy Cash Flow,Positive operating cash flow combined with investment in assets reflects a healthy business pattern.,95
+GRASIM,Negative OCF,Negative operating cash flow may indicate pressure on core business operations.,95
+GRASIM,Capital Investment,Company is investing cash into long-term assets or business expansion.,90
+GRASIM,Financing Inflow,Company received positive cash from financing activities.,85
+GRASIM,Positive Net Cash,Overall cash position improved during the year.,90
+GRASIM,Expansion Phase,Large investing cash outflow suggests expansion or significant capital expenditure.,90
+GRASIM,External Funding,Large financing inflow indicates debt or equity funding.,85
+HAL,Positive OCF,Business generates positive operating cash flow from core operations.,95
+HAL,Capital Investment,Company is investing cash into long-term assets or business expansion.,90
+HAL,Strong OCF,"Operating cash flow is strong, indicating excellent cash generation capability.",95
+HAL,Expansion Phase,Large investing cash outflow suggests expansion or significant capital expenditure.,90
+HAL,Cash Burn,"Net cash flow is negative, indicating a reduction in cash reserves.",90
+HAL,Healthy Cash Flow,Positive operating cash flow combined with investment in assets reflects a healthy business pattern.,95
+HAVELLS,Positive OCF,Business generates positive operating cash flow from core operations.,95
+HAVELLS,Capital Investment,Company is investing cash into long-term assets or business expansion.,90
+HAVELLS,Strong OCF,"Operating cash flow is strong, indicating excellent cash generation capability.",95
+HAVELLS,Expansion Phase,Large investing cash outflow suggests expansion or significant capital expenditure.,90
+HAVELLS,Cash Burn,"Net cash flow is negative, indicating a reduction in cash reserves.",90
+HAVELLS,Healthy Cash Flow,Positive operating cash flow combined with investment in assets reflects a healthy business pattern.,95
+HCLTECH,Positive OCF,Business generates positive operating cash flow from core operations.,95
+HCLTECH,Capital Investment,Company is investing cash into long-term assets or business expansion.,90
+HCLTECH,Positive Net Cash,Overall cash position improved during the year.,90
+HCLTECH,Strong OCF,"Operating cash flow is strong, indicating excellent cash generation capability.",95
+HCLTECH,Expansion Phase,Large investing cash outflow suggests expansion or significant capital expenditure.,90
+HCLTECH,Healthy Cash Flow,Positive operating cash flow combined with investment in assets reflects a healthy business pattern.,95
+HDFCBANK,Positive OCF,Business generates positive operating cash flow from core operations.,95
+HDFCBANK,Positive Net Cash,Overall cash position improved during the year.,90
+HDFCBANK,Strong OCF,"Operating cash flow is strong, indicating excellent cash generation capability.",95
+HDFCLIFE,Positive OCF,Business generates positive operating cash flow from core operations.,95
+HDFCLIFE,Capital Investment,Company is investing cash into long-term assets or business expansion.,90
+HDFCLIFE,Strong OCF,"Operating cash flow is strong, indicating excellent cash generation capability.",95
+HDFCLIFE,Expansion Phase,Large investing cash outflow suggests expansion or significant capital expenditure.,90
+HDFCLIFE,Cash Burn,"Net cash flow is negative, indicating a reduction in cash reserves.",90
+HDFCLIFE,Healthy Cash Flow,Positive operating cash flow combined with investment in assets reflects a healthy business pattern.,95
+HEROMOTOCO,Positive OCF,Business generates positive operating cash flow from core operations.,95
+HEROMOTOCO,Capital Investment,Company is investing cash into long-term assets or business expansion.,90
+HEROMOTOCO,Positive Net Cash,Overall cash position improved during the year.,90
+HEROMOTOCO,Strong OCF,"Operating cash flow is strong, indicating excellent cash generation capability.",95
+HEROMOTOCO,Expansion Phase,Large investing cash outflow suggests expansion or significant capital expenditure.,90
+HEROMOTOCO,Healthy Cash Flow,Positive operating cash flow combined with investment in assets reflects a healthy business pattern.,95
+HINDALCO,Positive OCF,Business generates positive operating cash flow from core operations.,95
+HINDALCO,Capital Investment,Company is investing cash into long-term assets or business expansion.,90
+HINDALCO,Strong OCF,"Operating cash flow is strong, indicating excellent cash generation capability.",95
+HINDALCO,Expansion Phase,Large investing cash outflow suggests expansion or significant capital expenditure.,90
+HINDALCO,Cash Burn,"Net cash flow is negative, indicating a reduction in cash reserves.",90
+HINDALCO,Healthy Cash Flow,Positive operating cash flow combined with investment in assets reflects a healthy business pattern.,95
+HINDUNILVR,Positive OCF,Business generates positive operating cash flow from core operations.,95
+HINDUNILVR,Capital Investment,Company is investing cash into long-term assets or business expansion.,90
+HINDUNILVR,Positive Net Cash,Overall cash position improved during the year.,90
+HINDUNILVR,Strong OCF,"Operating cash flow is strong, indicating excellent cash generation capability.",95
+HINDUNILVR,Expansion Phase,Large investing cash outflow suggests expansion or significant capital expenditure.,90
+HINDUNILVR,Healthy Cash Flow,Positive operating cash flow combined with investment in assets reflects a healthy business pattern.,95
+ICICIBANK,Positive OCF,Business generates positive operating cash flow from core operations.,95
+ICICIBANK,Capital Investment,Company is investing cash into long-term assets or business expansion.,90
+ICICIBANK,Financing Inflow,Company received positive cash from financing activities.,85
+ICICIBANK,Positive Net Cash,Overall cash position improved during the year.,90
+ICICIBANK,Strong OCF,"Operating cash flow is strong, indicating excellent cash generation capability.",95
+ICICIBANK,Expansion Phase,Large investing cash outflow suggests expansion or significant capital expenditure.,90
+ICICIBANK,External Funding,Large financing inflow indicates debt or equity funding.,85
+ICICIBANK,Healthy Cash Flow,Positive operating cash flow combined with investment in assets reflects a healthy business pattern.,95
+ICICIGI,Positive OCF,Business generates positive operating cash flow from core operations.,95
+ICICIGI,Capital Investment,Company is investing cash into long-term assets or business expansion.,90
+ICICIGI,Positive Net Cash,Overall cash position improved during the year.,90
+ICICIGI,Strong OCF,"Operating cash flow is strong, indicating excellent cash generation capability.",95
+ICICIGI,Expansion Phase,Large investing cash outflow suggests expansion or significant capital expenditure.,90
+ICICIGI,Healthy Cash Flow,Positive operating cash flow combined with investment in assets reflects a healthy business pattern.,95
+ICICIPRULI,Negative OCF,Negative operating cash flow may indicate pressure on core business operations.,95
+ICICIPRULI,Positive Net Cash,Overall cash position improved during the year.,90
+INDIGO,Positive OCF,Business generates positive operating cash flow from core operations.,95
+INDIGO,Capital Investment,Company is investing cash into long-term assets or business expansion.,90
+INDIGO,Strong OCF,"Operating cash flow is strong, indicating excellent cash generation capability.",95
+INDIGO,Expansion Phase,Large investing cash outflow suggests expansion or significant capital expenditure.,90
+INDIGO,Cash Burn,"Net cash flow is negative, indicating a reduction in cash reserves.",90
+INDIGO,Healthy Cash Flow,Positive operating cash flow combined with investment in assets reflects a healthy business pattern.,95
+INDUSINDBK,Negative OCF,Negative operating cash flow may indicate pressure on core business operations.,95
+INDUSINDBK,Capital Investment,Company is investing cash into long-term assets or business expansion.,90
+INDUSINDBK,Cash Burn,"Net cash flow is negative, indicating a reduction in cash reserves.",90
+INFY,Positive OCF,Business generates positive operating cash flow from core operations.,95
+INFY,Capital Investment,Company is investing cash into long-term assets or business expansion.,90
+INFY,Positive Net Cash,Overall cash position improved during the year.,90
+INFY,Strong OCF,"Operating cash flow is strong, indicating excellent cash generation capability.",95
+INFY,Expansion Phase,Large investing cash outflow suggests expansion or significant capital expenditure.,90
+INFY,Healthy Cash Flow,Positive operating cash flow combined with investment in assets reflects a healthy business pattern.,95
+IOC,Positive OCF,Business generates positive operating cash flow from core operations.,95
+IOC,Capital Investment,Company is investing cash into long-term assets or business expansion.,90
+IOC,Positive Net Cash,Overall cash position improved during the year.,90
+IOC,Strong OCF,"Operating cash flow is strong, indicating excellent cash generation capability.",95
+IOC,Expansion Phase,Large investing cash outflow suggests expansion or significant capital expenditure.,90
+IOC,Healthy Cash Flow,Positive operating cash flow combined with investment in assets reflects a healthy business pattern.,95
+IRCTC,Positive OCF,Business generates positive operating cash flow from core operations.,95
+IRCTC,Capital Investment,Company is investing cash into long-term assets or business expansion.,90
+IRCTC,Positive Net Cash,Overall cash position improved during the year.,90
+IRCTC,Healthy Cash Flow,Positive operating cash flow combined with investment in assets reflects a healthy business pattern.,95
+IRFC,Positive OCF,Business generates positive operating cash flow from core operations.,95
+IRFC,Capital Investment,Company is investing cash into long-term assets or business expansion.,90
+IRFC,Strong OCF,"Operating cash flow is strong, indicating excellent cash generation capability.",95
+IRFC,Cash Burn,"Net cash flow is negative, indicating a reduction in cash reserves.",90
+IRFC,Healthy Cash Flow,Positive operating cash flow combined with investment in assets reflects a healthy business pattern.,95
+ITC,Positive OCF,Business generates positive operating cash flow from core operations.,95
+ITC,Positive Net Cash,Overall cash position improved during the year.,90
+ITC,Strong OCF,"Operating cash flow is strong, indicating excellent cash generation capability.",95
+JINDALSTEL,Positive OCF,Business generates positive operating cash flow from core operations.,95
+JINDALSTEL,Capital Investment,Company is investing cash into long-term assets or business expansion.,90
+JINDALSTEL,Financing Inflow,Company received positive cash from financing activities.,85
+JINDALSTEL,Strong OCF,"Operating cash flow is strong, indicating excellent cash generation capability.",95
+JINDALSTEL,Expansion Phase,Large investing cash outflow suggests expansion or significant capital expenditure.,90
+JINDALSTEL,External Funding,Large financing inflow indicates debt or equity funding.,85
+JINDALSTEL,Cash Burn,"Net cash flow is negative, indicating a reduction in cash reserves.",90
+JINDALSTEL,Healthy Cash Flow,Positive operating cash flow combined with investment in assets reflects a healthy business pattern.,95
+JIOFIN,Negative OCF,Negative operating cash flow may indicate pressure on core business operations.,95
+JIOFIN,Positive Net Cash,Overall cash position improved during the year.,90
+JSWENERGY,Positive OCF,Business generates positive operating cash flow from core operations.,95
+JSWENERGY,Capital Investment,Company is investing cash into long-term assets or business expansion.,90
+JSWENERGY,Financing Inflow,Company received positive cash from financing activities.,85
+JSWENERGY,Strong OCF,"Operating cash flow is strong, indicating excellent cash generation capability.",95
+JSWENERGY,Expansion Phase,Large investing cash outflow suggests expansion or significant capital expenditure.,90
+JSWENERGY,External Funding,Large financing inflow indicates debt or equity funding.,85
+JSWENERGY,Cash Burn,"Net cash flow is negative, indicating a reduction in cash reserves.",90
+JSWENERGY,Healthy Cash Flow,Positive operating cash flow combined with investment in assets reflects a healthy business pattern.,95
+JSWSTEEL,Positive OCF,Business generates positive operating cash flow from core operations.,95
+JSWSTEEL,Capital Investment,Company is investing cash into long-term assets or business expansion.,90
+JSWSTEEL,Strong OCF,"Operating cash flow is strong, indicating excellent cash generation capability.",95
+JSWSTEEL,Expansion Phase,Large investing cash outflow suggests expansion or significant capital expenditure.,90
+JSWSTEEL,Cash Burn,"Net cash flow is negative, indicating a reduction in cash reserves.",90
+JSWSTEEL,Healthy Cash Flow,Positive operating cash flow combined with investment in assets reflects a healthy business pattern.,95
+KOTAKBANK,Positive OCF,Business generates positive operating cash flow from core operations.,95
+KOTAKBANK,Capital Investment,Company is investing cash into long-term assets or business expansion.,90
+KOTAKBANK,Financing Inflow,Company received positive cash from financing activities.,85
+KOTAKBANK,Positive Net Cash,Overall cash position improved during the year.,90
+KOTAKBANK,Strong OCF,"Operating cash flow is strong, indicating excellent cash generation capability.",95
+KOTAKBANK,Expansion Phase,Large investing cash outflow suggests expansion or significant capital expenditure.,90
+KOTAKBANK,External Funding,Large financing inflow indicates debt or equity funding.,85
+KOTAKBANK,Healthy Cash Flow,Positive operating cash flow combined with investment in assets reflects a healthy business pattern.,95
+LICI,Positive OCF,Business generates positive operating cash flow from core operations.,95
+LICI,Capital Investment,Company is investing cash into long-term assets or business expansion.,90
+LICI,Strong OCF,"Operating cash flow is strong, indicating excellent cash generation capability.",95
+LICI,Expansion Phase,Large investing cash outflow suggests expansion or significant capital expenditure.,90
+LICI,Cash Burn,"Net cash flow is negative, indicating a reduction in cash reserves.",90
+LICI,Healthy Cash Flow,Positive operating cash flow combined with investment in assets reflects a healthy business pattern.,95
+LODHA,Positive OCF,Business generates positive operating cash flow from core operations.,95
+LODHA,Capital Investment,Company is investing cash into long-term assets or business expansion.,90
+LODHA,Financing Inflow,Company received positive cash from financing activities.,85
+LODHA,Positive Net Cash,Overall cash position improved during the year.,90
+LODHA,Strong OCF,"Operating cash flow is strong, indicating excellent cash generation capability.",95
+LODHA,Expansion Phase,Large investing cash outflow suggests expansion or significant capital expenditure.,90
+LODHA,Healthy Cash Flow,Positive operating cash flow combined with investment in assets reflects a healthy business pattern.,95
+LT,Positive OCF,Business generates positive operating cash flow from core operations.,95
+LT,Strong OCF,"Operating cash flow is strong, indicating excellent cash generation capability.",95
+LT,Cash Burn,"Net cash flow is negative, indicating a reduction in cash reserves.",90
+LTIM,Positive OCF,Business generates positive operating cash flow from core operations.,95
+LTIM,Capital Investment,Company is investing cash into long-term assets or business expansion.,90
+LTIM,Strong OCF,"Operating cash flow is strong, indicating excellent cash generation capability.",95
+LTIM,Expansion Phase,Large investing cash outflow suggests expansion or significant capital expenditure.,90
+LTIM,Cash Burn,"Net cash flow is negative, indicating a reduction in cash reserves.",90
+LTIM,Healthy Cash Flow,Positive operating cash flow combined with investment in assets reflects a healthy business pattern.,95
+M&M,Negative OCF,Negative operating cash flow may indicate pressure on core business operations.,95
+M&M,Capital Investment,Company is investing cash into long-term assets or business expansion.,90
+M&M,Financing Inflow,Company received positive cash from financing activities.,85
+M&M,Positive Net Cash,Overall cash position improved during the year.,90
+M&M,Expansion Phase,Large investing cash outflow suggests expansion or significant capital expenditure.,90
+M&M,External Funding,Large financing inflow indicates debt or equity funding.,85
+MARUTI,Positive OCF,Business generates positive operating cash flow from core operations.,95
+MARUTI,Capital Investment,Company is investing cash into long-term assets or business expansion.,90
+MARUTI,Positive Net Cash,Overall cash position improved during the year.,90
+MARUTI,Strong OCF,"Operating cash flow is strong, indicating excellent cash generation capability.",95
+MARUTI,Expansion Phase,Large investing cash outflow suggests expansion or significant capital expenditure.,90
+MARUTI,Healthy Cash Flow,Positive operating cash flow combined with investment in assets reflects a healthy business pattern.,95
+MOTHERSON,Positive OCF,Business generates positive operating cash flow from core operations.,95
+MOTHERSON,Capital Investment,Company is investing cash into long-term assets or business expansion.,90
+MOTHERSON,Financing Inflow,Company received positive cash from financing activities.,85
+MOTHERSON,Positive Net Cash,Overall cash position improved during the year.,90
+MOTHERSON,Strong OCF,"Operating cash flow is strong, indicating excellent cash generation capability.",95
+MOTHERSON,Expansion Phase,Large investing cash outflow suggests expansion or significant capital expenditure.,90
+MOTHERSON,External Funding,Large financing inflow indicates debt or equity funding.,85
+MOTHERSON,Healthy Cash Flow,Positive operating cash flow combined with investment in assets reflects a healthy business pattern.,95
+NAUKRI,Positive OCF,Business generates positive operating cash flow from core operations.,95
+NAUKRI,Capital Investment,Company is investing cash into long-term assets or business expansion.,90
+NAUKRI,Financing Inflow,Company received positive cash from financing activities.,85
+NAUKRI,Cash Burn,"Net cash flow is negative, indicating a reduction in cash reserves.",90
+NAUKRI,Healthy Cash Flow,Positive operating cash flow combined with investment in assets reflects a healthy business pattern.,95
+NESTLEIND,Positive OCF,Business generates positive operating cash flow from core operations.,95
+NESTLEIND,Capital Investment,Company is investing cash into long-term assets or business expansion.,90
+NESTLEIND,Strong OCF,"Operating cash flow is strong, indicating excellent cash generation capability.",95
+NESTLEIND,Expansion Phase,Large investing cash outflow suggests expansion or significant capital expenditure.,90
+NESTLEIND,Cash Burn,"Net cash flow is negative, indicating a reduction in cash reserves.",90
+NESTLEIND,Healthy Cash Flow,Positive operating cash flow combined with investment in assets reflects a healthy business pattern.,95
+NHPC,Positive OCF,Business generates positive operating cash flow from core operations.,95
+NHPC,Capital Investment,Company is investing cash into long-term assets or business expansion.,90
+NHPC,Positive Net Cash,Overall cash position improved during the year.,90
+NHPC,Strong OCF,"Operating cash flow is strong, indicating excellent cash generation capability.",95
+NHPC,Expansion Phase,Large investing cash outflow suggests expansion or significant capital expenditure.,90
+NHPC,Healthy Cash Flow,Positive operating cash flow combined with investment in assets reflects a healthy business pattern.,95
+NTPC,Positive OCF,Business generates positive operating cash flow from core operations.,95
+NTPC,Capital Investment,Company is investing cash into long-term assets or business expansion.,90
+NTPC,Positive Net Cash,Overall cash position improved during the year.,90
+NTPC,Strong OCF,"Operating cash flow is strong, indicating excellent cash generation capability.",95
+NTPC,Expansion Phase,Large investing cash outflow suggests expansion or significant capital expenditure.,90
+NTPC,Healthy Cash Flow,Positive operating cash flow combined with investment in assets reflects a healthy business pattern.,95
+ONGC,Positive OCF,Business generates positive operating cash flow from core operations.,95
+ONGC,Capital Investment,Company is investing cash into long-term assets or business expansion.,90
+ONGC,Strong OCF,"Operating cash flow is strong, indicating excellent cash generation capability.",95
+ONGC,Expansion Phase,Large investing cash outflow suggests expansion or significant capital expenditure.,90
+ONGC,Cash Burn,"Net cash flow is negative, indicating a reduction in cash reserves.",90
+ONGC,Healthy Cash Flow,Positive operating cash flow combined with investment in assets reflects a healthy business pattern.,95
+PFC,Negative OCF,Negative operating cash flow may indicate pressure on core business operations.,95
+PFC,Capital Investment,Company is investing cash into long-term assets or business expansion.,90
+PFC,Financing Inflow,Company received positive cash from financing activities.,85
+PFC,Positive Net Cash,Overall cash position improved during the year.,90
+PFC,Expansion Phase,Large investing cash outflow suggests expansion or significant capital expenditure.,90
+PFC,External Funding,Large financing inflow indicates debt or equity funding.,85
+PIDILITIND,Positive OCF,Business generates positive operating cash flow from core operations.,95
+PIDILITIND,Capital Investment,Company is investing cash into long-term assets or business expansion.,90
+PIDILITIND,Positive Net Cash,Overall cash position improved during the year.,90
+PIDILITIND,Strong OCF,"Operating cash flow is strong, indicating excellent cash generation capability.",95
+PIDILITIND,Expansion Phase,Large investing cash outflow suggests expansion or significant capital expenditure.,90
+PIDILITIND,Healthy Cash Flow,Positive operating cash flow combined with investment in assets reflects a healthy business pattern.,95
+PNB,Negative OCF,Negative operating cash flow may indicate pressure on core business operations.,95
+PNB,Capital Investment,Company is investing cash into long-term assets or business expansion.,90
+PNB,Financing Inflow,Company received positive cash from financing activities.,85
+PNB,Expansion Phase,Large investing cash outflow suggests expansion or significant capital expenditure.,90
+PNB,External Funding,Large financing inflow indicates debt or equity funding.,85
+PNB,Cash Burn,"Net cash flow is negative, indicating a reduction in cash reserves.",90
+POWERGRID,Positive OCF,Business generates positive operating cash flow from core operations.,95
+POWERGRID,Capital Investment,Company is investing cash into long-term assets or business expansion.,90
+POWERGRID,Strong OCF,"Operating cash flow is strong, indicating excellent cash generation capability.",95
+POWERGRID,Expansion Phase,Large investing cash outflow suggests expansion or significant capital expenditure.,90
+POWERGRID,Cash Burn,"Net cash flow is negative, indicating a reduction in cash reserves.",90
+POWERGRID,Healthy Cash Flow,Positive operating cash flow combined with investment in assets reflects a healthy business pattern.,95
+RECLTD,Negative OCF,Negative operating cash flow may indicate pressure on core business operations.,95
+RECLTD,Capital Investment,Company is investing cash into long-term assets or business expansion.,90
+RECLTD,Financing Inflow,Company received positive cash from financing activities.,85
+RECLTD,Positive Net Cash,Overall cash position improved during the year.,90
+RECLTD,Expansion Phase,Large investing cash outflow suggests expansion or significant capital expenditure.,90
+RECLTD,External Funding,Large financing inflow indicates debt or equity funding.,85
+RELIANCE,Positive OCF,Business generates positive operating cash flow from core operations.,95
+RELIANCE,Capital Investment,Company is investing cash into long-term assets or business expansion.,90
+RELIANCE,Positive Net Cash,Overall cash position improved during the year.,90
+RELIANCE,Strong OCF,"Operating cash flow is strong, indicating excellent cash generation capability.",95
+RELIANCE,Expansion Phase,Large investing cash outflow suggests expansion or significant capital expenditure.,90
+RELIANCE,Healthy Cash Flow,Positive operating cash flow combined with investment in assets reflects a healthy business pattern.,95
+SBILIFE,Positive OCF,Business generates positive operating cash flow from core operations.,95
+SBILIFE,Capital Investment,Company is investing cash into long-term assets or business expansion.,90
+SBILIFE,Strong OCF,"Operating cash flow is strong, indicating excellent cash generation capability.",95
+SBILIFE,Expansion Phase,Large investing cash outflow suggests expansion or significant capital expenditure.,90
+SBILIFE,Cash Burn,"Net cash flow is negative, indicating a reduction in cash reserves.",90
+SBILIFE,Healthy Cash Flow,Positive operating cash flow combined with investment in assets reflects a healthy business pattern.,95
+SBIN,Positive OCF,Business generates positive operating cash flow from core operations.,95
+SBIN,Capital Investment,Company is investing cash into long-term assets or business expansion.,90
+SBIN,Positive Net Cash,Overall cash position improved during the year.,90
+SBIN,Strong OCF,"Operating cash flow is strong, indicating excellent cash generation capability.",95
+SBIN,Expansion Phase,Large investing cash outflow suggests expansion or significant capital expenditure.,90
+SBIN,Healthy Cash Flow,Positive operating cash flow combined with investment in assets reflects a healthy business pattern.,95
+SHREECEM,Positive OCF,Business generates positive operating cash flow from core operations.,95
+SHREECEM,Capital Investment,Company is investing cash into long-term assets or business expansion.,90
+SHREECEM,Positive Net Cash,Overall cash position improved during the year.,90
+SHREECEM,Strong OCF,"Operating cash flow is strong, indicating excellent cash generation capability.",95
+SHREECEM,Expansion Phase,Large investing cash outflow suggests expansion or significant capital expenditure.,90
+SHREECEM,Healthy Cash Flow,Positive operating cash flow combined with investment in assets reflects a healthy business pattern.,95
+SHRIRAMFIN,Negative OCF,Negative operating cash flow may indicate pressure on core business operations.,95
+SHRIRAMFIN,Capital Investment,Company is investing cash into long-term assets or business expansion.,90
+SHRIRAMFIN,Financing Inflow,Company received positive cash from financing activities.,85
+SHRIRAMFIN,External Funding,Large financing inflow indicates debt or equity funding.,85
+SHRIRAMFIN,Cash Burn,"Net cash flow is negative, indicating a reduction in cash reserves.",90
+SUNPHARMA,Positive OCF,Business generates positive operating cash flow from core operations.,95
+SUNPHARMA,Capital Investment,Company is investing cash into long-term assets or business expansion.,90
+SUNPHARMA,Positive Net Cash,Overall cash position improved during the year.,90
+SUNPHARMA,Strong OCF,"Operating cash flow is strong, indicating excellent cash generation capability.",95
+SUNPHARMA,Healthy Cash Flow,Positive operating cash flow combined with investment in assets reflects a healthy business pattern.,95
+TATACONSUM,Positive OCF,Business generates positive operating cash flow from core operations.,95
+TATACONSUM,Capital Investment,Company is investing cash into long-term assets or business expansion.,90
+TATACONSUM,Financing Inflow,Company received positive cash from financing activities.,85
+TATACONSUM,Positive Net Cash,Overall cash position improved during the year.,90
+TATACONSUM,Strong OCF,"Operating cash flow is strong, indicating excellent cash generation capability.",95
+TATACONSUM,Expansion Phase,Large investing cash outflow suggests expansion or significant capital expenditure.,90
+TATACONSUM,Healthy Cash Flow,Positive operating cash flow combined with investment in assets reflects a healthy business pattern.,95
+TATAMOTORS,Positive OCF,Business generates positive operating cash flow from core operations.,95
+TATAMOTORS,Capital Investment,Company is investing cash into long-term assets or business expansion.,90
+TATAMOTORS,Positive Net Cash,Overall cash position improved during the year.,90
+TATAMOTORS,Strong OCF,"Operating cash flow is strong, indicating excellent cash generation capability.",95
+TATAMOTORS,Expansion Phase,Large investing cash outflow suggests expansion or significant capital expenditure.,90
+TATAMOTORS,Healthy Cash Flow,Positive operating cash flow combined with investment in assets reflects a healthy business pattern.,95
+TATAPOWER,Positive OCF,Business generates positive operating cash flow from core operations.,95
+TATAPOWER,Capital Investment,Company is investing cash into long-term assets or business expansion.,90
+TATAPOWER,Strong OCF,"Operating cash flow is strong, indicating excellent cash generation capability.",95
+TATAPOWER,Expansion Phase,Large investing cash outflow suggests expansion or significant capital expenditure.,90
+TATAPOWER,Cash Burn,"Net cash flow is negative, indicating a reduction in cash reserves.",90
+TATAPOWER,Healthy Cash Flow,Positive operating cash flow combined with investment in assets reflects a healthy business pattern.,95
+TATASTEEL,Positive OCF,Business generates positive operating cash flow from core operations.,95
+TATASTEEL,Capital Investment,Company is investing cash into long-term assets or business expansion.,90
+TATASTEEL,Strong OCF,"Operating cash flow is strong, indicating excellent cash generation capability.",95
+TATASTEEL,Expansion Phase,Large investing cash outflow suggests expansion or significant capital expenditure.,90
+TATASTEEL,Cash Burn,"Net cash flow is negative, indicating a reduction in cash reserves.",90
+TATASTEEL,Healthy Cash Flow,Positive operating cash flow combined with investment in assets reflects a healthy business pattern.,95
+TECHM,Positive OCF,Business generates positive operating cash flow from core operations.,95
+TECHM,Capital Investment,Company is investing cash into long-term assets or business expansion.,90
+TECHM,Positive Net Cash,Overall cash position improved during the year.,90
+TECHM,Strong OCF,"Operating cash flow is strong, indicating excellent cash generation capability.",95
+TECHM,Expansion Phase,Large investing cash outflow suggests expansion or significant capital expenditure.,90
+TECHM,Healthy Cash Flow,Positive operating cash flow combined with investment in assets reflects a healthy business pattern.,95
+TITAN,Positive OCF,Business generates positive operating cash flow from core operations.,95
+TITAN,Capital Investment,Company is investing cash into long-term assets or business expansion.,90
+TITAN,Positive Net Cash,Overall cash position improved during the year.,90
+TITAN,Strong OCF,"Operating cash flow is strong, indicating excellent cash generation capability.",95
+TITAN,Healthy Cash Flow,Positive operating cash flow combined with investment in assets reflects a healthy business pattern.,95
+TORNTPHARM,Positive OCF,Business generates positive operating cash flow from core operations.,95
+TORNTPHARM,Capital Investment,Company is investing cash into long-term assets or business expansion.,90
+TORNTPHARM,Positive Net Cash,Overall cash position improved during the year.,90
+TORNTPHARM,Strong OCF,"Operating cash flow is strong, indicating excellent cash generation capability.",95
+TORNTPHARM,Healthy Cash Flow,Positive operating cash flow combined with investment in assets reflects a healthy business pattern.,95
+TRENT,Positive OCF,Business generates positive operating cash flow from core operations.,95
+TRENT,Capital Investment,Company is investing cash into long-term assets or business expansion.,90
+TRENT,Positive Net Cash,Overall cash position improved during the year.,90
+TRENT,Strong OCF,"Operating cash flow is strong, indicating excellent cash generation capability.",95
+TRENT,Healthy Cash Flow,Positive operating cash flow combined with investment in assets reflects a healthy business pattern.,95
+TVSMOTOR,Negative OCF,Negative operating cash flow may indicate pressure on core business operations.,95
+TVSMOTOR,Capital Investment,Company is investing cash into long-term assets or business expansion.,90
+TVSMOTOR,Financing Inflow,Company received positive cash from financing activities.,85
+TVSMOTOR,Positive Net Cash,Overall cash position improved during the year.,90
+TVSMOTOR,Expansion Phase,Large investing cash outflow suggests expansion or significant capital expenditure.,90
+TVSMOTOR,External Funding,Large financing inflow indicates debt or equity funding.,85
+ULTRACEMCO,Positive OCF,Business generates positive operating cash flow from core operations.,95
+ULTRACEMCO,Capital Investment,Company is investing cash into long-term assets or business expansion.,90
+ULTRACEMCO,Positive Net Cash,Overall cash position improved during the year.,90
+ULTRACEMCO,Strong OCF,"Operating cash flow is strong, indicating excellent cash generation capability.",95
+ULTRACEMCO,Expansion Phase,Large investing cash outflow suggests expansion or significant capital expenditure.,90
+ULTRACEMCO,Healthy Cash Flow,Positive operating cash flow combined with investment in assets reflects a healthy business pattern.,95
+UNIONBANK,Positive OCF,Business generates positive operating cash flow from core operations.,95
+UNIONBANK,Capital Investment,Company is investing cash into long-term assets or business expansion.,90
+UNIONBANK,Positive Net Cash,Overall cash position improved during the year.,90
+UNIONBANK,Strong OCF,"Operating cash flow is strong, indicating excellent cash generation capability.",95
+UNIONBANK,Expansion Phase,Large investing cash outflow suggests expansion or significant capital expenditure.,90
+UNIONBANK,Healthy Cash Flow,Positive operating cash flow combined with investment in assets reflects a healthy business pattern.,95
+UNITDSPR,Positive OCF,Business generates positive operating cash flow from core operations.,95
+UNITDSPR,Positive Net Cash,Overall cash position improved during the year.,90
+UNITDSPR,Strong OCF,"Operating cash flow is strong, indicating excellent cash generation capability.",95
+VEDL,Positive OCF,Business generates positive operating cash flow from core operations.,95
+VEDL,Capital Investment,Company is investing cash into long-term assets or business expansion.,90
+VEDL,Strong OCF,"Operating cash flow is strong, indicating excellent cash generation capability.",95
+VEDL,Expansion Phase,Large investing cash outflow suggests expansion or significant capital expenditure.,90
+VEDL,Cash Burn,"Net cash flow is negative, indicating a reduction in cash reserves.",90
+VEDL,Healthy Cash Flow,Positive operating cash flow combined with investment in assets reflects a healthy business pattern.,95
+WIPRO,Positive OCF,Business generates positive operating cash flow from core operations.,95
+WIPRO,Positive Net Cash,Overall cash position improved during the year.,90
+WIPRO,Strong OCF,"Operating cash flow is strong, indicating excellent cash generation capability.",95
+ZOMATO,Positive OCF,Business generates positive operating cash flow from core operations.,95
+ZOMATO,Capital Investment,Company is investing cash into long-term assets or business expansion.,90
+ZOMATO,Positive Net Cash,Overall cash position improved during the year.,90
+ZOMATO,Healthy Cash Flow,Positive operating cash flow combined with investment in assets reflects a healthy business pattern.,95
+ZYDUSLIFE,Positive OCF,Business generates positive operating cash flow from core operations.,95
+ZYDUSLIFE,Capital Investment,Company is investing cash into long-term assets or business expansion.,90
+ZYDUSLIFE,Strong OCF,"Operating cash flow is strong, indicating excellent cash generation capability.",95
+ZYDUSLIFE,Expansion Phase,Large investing cash outflow suggests expansion or significant capital expenditure.,90
+ZYDUSLIFE,Cash Burn,"Net cash flow is negative, indicating a reduction in cash reserves.",90
+ZYDUSLIFE,Healthy Cash Flow,Positive operating cash flow combined with investment in assets reflects a healthy business pattern.,95
+TCS,Positive OCF,Business generates positive operating cash flow from core operations.,95
+TCS,Positive Net Cash,Overall cash position improved during the year.,90
+TCS,Strong OCF,"Operating cash flow is strong, indicating excellent cash generation capability.",95
+SIEMENS,Positive OCF,Business generates positive operating cash flow from core operations.,95
+SIEMENS,Capital Investment,Company is investing cash into long-term assets or business expansion.,90
+SIEMENS,Positive Net Cash,Overall cash position improved during the year.,90
+SIEMENS,Strong OCF,"Operating cash flow is strong, indicating excellent cash generation capability.",95
+SIEMENS,Healthy Cash Flow,Positive operating cash flow combined with investment in assets reflects a healthy business pattern.,95
