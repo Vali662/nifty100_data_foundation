@@ -1,0 +1,94 @@
+rank,company_id,investment_score,rating,recommendation
+1,IRCTC,100,Excellent,Strong Buy
+2,INDIGO,100,Excellent,Strong Buy
+3,TRENT,100,Excellent,Strong Buy
+4,LTIM,98,Excellent,Strong Buy
+5,NESTLEIND,98,Excellent,Strong Buy
+6,ASIANPAINT,96,Excellent,Strong Buy
+7,BAJAJHLDNG,95,Excellent,Strong Buy
+8,EICHERMOT,94,Excellent,Strong Buy
+9,BEL,94,Excellent,Strong Buy
+10,HAL,93,Excellent,Strong Buy
+11,PIDILITIND,93,Excellent,Strong Buy
+12,ABB,92,Excellent,Strong Buy
+13,LT,92,Excellent,Strong Buy
+14,TCS,92,Excellent,Strong Buy
+15,HCLTECH,92,Excellent,Strong Buy
+16,INFY,92,Excellent,Strong Buy
+17,ADANIPOWER,91,Excellent,Strong Buy
+18,COALINDIA,90,Excellent,Strong Buy
+19,HINDUNILVR,89,Excellent,Strong Buy
+20,DRREDDY,88,Excellent,Strong Buy
+21,SUNPHARMA,88,Excellent,Strong Buy
+22,ITC,88,Excellent,Strong Buy
+23,TITAN,88,Excellent,Strong Buy
+24,DMART,87,Excellent,Strong Buy
+25,BAJAJ-AUTO,87,Excellent,Strong Buy
+26,HEROMOTOCO,86,Excellent,Strong Buy
+27,MARUTI,86,Excellent,Strong Buy
+28,ATGL,86,Excellent,Strong Buy
+29,SIEMENS,86,Excellent,Strong Buy
+30,PNB,85,Excellent,Strong Buy
+31,LICI,85,Excellent,Strong Buy
+32,HAVELLS,85,Excellent,Strong Buy
+33,BAJAJFINSV,84,Very Good,Buy
+34,BOSCHLTD,84,Very Good,Buy
+35,ICICIGI,83,Very Good,Buy
+36,CIPLA,83,Very Good,Buy
+37,BPCL,83,Very Good,Buy
+38,BRITANNIA,82,Very Good,Buy
+39,TORNTPHARM,82,Very Good,Buy
+40,IOC,82,Very Good,Buy
+41,ICICIBANK,82,Very Good,Buy
+42,TATACONSUM,81,Very Good,Buy
+43,CANBK,81,Very Good,Buy
+44,BAJFINANCE,80,Very Good,Buy
+45,ULTRACEMCO,80,Very Good,Buy
+46,ONGC,79,Very Good,Buy
+47,CHOLAFIN,79,Very Good,Buy
+48,SBILIFE,79,Very Good,Buy
+49,GAIL,78,Very Good,Buy
+50,BANKBARODA,78,Very Good,Buy
+51,HDFCLIFE,78,Very Good,Buy
+52,TVSMOTOR,77,Very Good,Buy
+53,RECLTD,77,Very Good,Buy
+54,TATAMOTORS,76,Very Good,Buy
+55,APOLLOHOSP,76,Very Good,Buy
+56,DABUR,76,Very Good,Buy
+57,ADANIPORTS,75,Very Good,Buy
+58,PFC,75,Very Good,Buy
+59,SHRIRAMFIN,75,Very Good,Buy
+60,AMBUJACEM,74,Very Good,Buy
+61,NAUKRI,74,Very Good,Buy
+62,SHREECEM,74,Very Good,Buy
+63,IRFC,73,Very Good,Buy
+64,DIVISLAB,73,Very Good,Buy
+65,HDFCBANK,72,Very Good,Buy
+66,TATAPOWER,72,Very Good,Buy
+67,ICICIPRULI,72,Very Good,Buy
+68,AXISBANK,72,Very Good,Buy
+69,ADANIGREEN,71,Very Good,Buy
+70,JINDALSTEL,71,Very Good,Buy
+71,KOTAKBANK,71,Very Good,Buy
+72,MOTHERSON,69,Good,Hold
+73,BHARTIARTL,69,Good,Hold
+74,ADANIENT,69,Good,Hold
+75,UNIONBANK,69,Good,Hold
+76,INDUSINDBK,69,Good,Hold
+77,JSWSTEEL,69,Good,Hold
+78,HINDALCO,69,Good,Hold
+79,POWERGRID,69,Good,Hold
+80,DLF,68,Good,Hold
+81,JIOFIN,68,Good,Hold
+82,NHPC,68,Good,Hold
+83,GRASIM,67,Good,Hold
+84,M&M,67,Good,Hold
+85,ADANIENSOL,66,Good,Hold
+86,NTPC,66,Good,Hold
+87,TECHM,66,Good,Hold
+88,GODREJCP,64,Good,Hold
+89,LODHA,63,Good,Hold
+90,RELIANCE,62,Good,Hold
+91,JSWENERGY,58,Good,Hold
+92,TATASTEEL,58,Good,Hold
+93,BHEL,56,Good,Hold
