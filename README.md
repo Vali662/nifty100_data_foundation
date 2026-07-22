@@ -175,6 +175,279 @@ Developed an interactive Streamlit dashboard for visualizing and analyzing NIFTY
 
 ---
 
+# 🤖 Sprint 5 – AI Financial Intelligence & Recommendation System
+
+## 📌 Overview
+
+Sprint 5 focuses on transforming the NIFTY100 Financial Intelligence Platform into an AI-powered financial analysis system. This sprint introduces Natural Language Processing (NLP), automated financial narratives, cash flow intelligence, investment scoring, AI-based recommendations, and interactive dashboard enhancements.
+
+---
+
+# 📅 Sprint 5 Modules
+
+## ✅ Day 29 – Financial Text Parser & CAGR Validator
+
+### Features
+
+- Built an NLP parser to process financial analysis text.
+- Extracted structured financial insights from raw analysis files.
+- Implemented CAGR validation using regular expressions.
+- Generated structured CSV outputs for downstream processing.
+
+### Output Files
+
+- `analysis_parsed.csv`
+- `parse_failures.csv`
+
+---
+
+## ✅ Day 30 – Pros & Cons Generator
+
+### Features
+
+Generated company-wise financial strengths and weaknesses using financial ratios.
+
+Examples:
+
+### Pros
+
+- Strong Return on Equity
+- Healthy Profit Margin
+- Consistent Revenue Growth
+- Efficient Capital Allocation
+- Strong Cash Flow Generation
+
+### Cons
+
+- High Debt Levels
+- Weak Profit Margins
+- Declining Revenue Growth
+- Poor Cash Flow
+- Low Quality Score
+
+### Output
+
+- `pros_cons_generated.csv`
+
+---
+
+## ✅ Day 31 – Cash Flow Intelligence Engine
+
+### Features
+
+Implemented a rule-based cash flow intelligence engine capable of identifying:
+
+- Healthy Operating Cash Flow
+- Strong Free Cash Flow
+- Positive Net Cash Flow
+- Expansion Phase
+- Heavy Capital Expenditure
+- External Funding Dependency
+- Financing Inflows
+- Cash Burn Companies
+
+### Generated Files
+
+- `cashflow_intelligence.csv`
+- `cashflow_health_score.csv`
+
+---
+
+## ✅ Day 32 – Financial Narrative Generator
+
+### Features
+
+Automatically generated AI-style financial narratives by combining:
+
+- Financial Ratios
+- Pros & Cons
+- Cash Flow Intelligence
+
+Each company receives an easy-to-understand financial summary.
+
+### Output
+
+- `company_narratives.csv`
+
+---
+
+## ✅ Day 33 – AI Company Scoring Engine
+
+### Features
+
+Developed a company scoring model using:
+
+- Return on Equity (ROE)
+- Debt-to-Equity Ratio
+- Revenue CAGR
+- Composite Quality Score
+- Pros & Cons
+- Cash Flow Intelligence
+
+Generated an investment score between **0 and 100**.
+
+### Rating Categories
+
+| Score | Rating |
+|--------|---------|
+| 85+ | Excellent |
+| 70–84 | Very Good |
+| 55–69 | Good |
+| 40–54 | Average |
+| Below 40 | Weak |
+
+### Investment Recommendations
+
+| Rating | Recommendation |
+|----------|----------------|
+| Excellent | Strong Buy |
+| Very Good | Buy |
+| Good | Hold |
+| Average | Watch |
+| Weak | Avoid |
+
+### Output
+
+- `company_scores.csv`
+
+---
+
+## ✅ Day 34 – AI Recommendation Dashboard
+
+Developed an interactive Streamlit dashboard for investment recommendations.
+
+### Features
+
+- Top 10 Investment Picks
+- Investment Score
+- Rating
+- Recommendation
+- Sidebar Filters
+- KPI Cards
+- Top Investment Score Bar Chart
+- CSV Download
+
+---
+
+## ✅ Day 35 – Company Recommendation Dashboard
+
+Developed a dedicated company recommendation page.
+
+### Features
+
+- Company Search
+- Company Dropdown
+- Investment Summary
+- Company Ranking
+- AI Financial Narrative
+- Company Details Table
+- Clean Dashboard Layout
+
+---
+
+# 📊 Sprint 5 Deliverables
+
+- Financial Text Parser
+- CAGR Validator
+- Pros & Cons Generator
+- Cash Flow Intelligence Engine
+- AI Financial Narrative Generator
+- AI Company Scoring Engine
+- Investment Recommendation System
+- AI Recommendation Dashboard
+- Company Recommendation Dashboard
+
+---
+
+# 📂 Sprint 5 Folder Structure
+
+```text
+src/
+│
+├── nlp/
+│   ├── parser.py
+│   ├── cagr_validator.py
+│   ├── pros_cons_generator.py
+│   ├── cashflow_intelligence.py
+│   ├── narrative_generator.py
+│   └── company_scoring.py
+│
+├── dashboard/
+│   ├── app.py
+│   └── pages/
+│       ├── 09_ai_recommendation.py
+│       └── 10_company_recommendation.py
+```
+
+---
+
+# 📊 Sprint 5 Generated Outputs
+
+```text
+output/
+
+analysis_parsed.csv
+parse_failures.csv
+pros_cons_generated.csv
+cashflow_intelligence.csv
+cashflow_health_score.csv
+company_narratives.csv
+company_scores.csv
+```
+
+---
+
+# 📈 Sprint 5 Dashboard Features
+
+### AI Investment Recommendation Dashboard
+
+- Company Rankings
+- Investment Scores
+- Ratings
+- Recommendations
+- Interactive Filters
+- KPI Cards
+- Download CSV
+- Top Investment Score Chart
+
+### Company Recommendation Dashboard
+
+- Search Company
+- Investment Summary
+- Company Rank
+- AI Financial Narrative
+- Company Details
+- Interactive Company Selection
+
+---
+
+# 🏆 Sprint 5 Achievements
+
+- Successfully processed **93 NIFTY100 companies**
+- Automated financial insight generation
+- Implemented AI-inspired recommendation logic
+- Built interactive Streamlit dashboards
+- Generated company-wise investment scores
+- Created financial narratives using NLP techniques
+- Delivered investment recommendations based on financial health
+
+---
+
+# 📚 Skills Gained in Sprint 5
+
+- Natural Language Processing (NLP)
+- Financial Text Parsing
+- Rule-Based AI Systems
+- Cash Flow Analytics
+- Financial Narrative Generation
+- Investment Scoring Models
+- Streamlit Dashboard Development
+- Interactive Data Visualization
+- Business Intelligence Reporting
+- Financial Decision Support Systems
+
+---
+
 # 🛠 Technologies Used
 
 - Python 3
